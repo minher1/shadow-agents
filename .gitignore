@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Environment variables and secrets
+.env
+*.pem
+*.key
+
+# VSCode and JetBrains IDE
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Terraform files (for zero2hero-zta)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Ansible vault secrets
+*.retry
+*.vault
